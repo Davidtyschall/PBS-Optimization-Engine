@@ -1,0 +1,4 @@
+# this is the modern python project config file 
+# defines project metadata, dependencies, directions, and tool configs 
+
+# just installed supabase -> should put it in here 'supabase'

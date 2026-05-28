@@ -701,3 +701,15 @@ LLM_MODEL=claude-sonnet-4-20250514
 ## Next Implementation Step
 
 Add LLM parsing for flight legs. This is the most complex pattern and will validate the hybrid approach works end-to-end.
+
+**Current File Structure & Contents (December 25, 2025)**
+
+src/
+├── llm/client.py       ← Prompts live here (add temperature=0)
+├── engine.py           ← Orchestrator
+├── models/schemas.py   ← Pydantic validation
+├── validators.py       ← Regex cross-checks
+├── ocr.py              ← PDF extraction
+└── config.py           ← Settings
+
+

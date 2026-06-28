@@ -21,7 +21,7 @@ app = FastAPI(
 # CORS middleware (allow frontend to call API)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # In production, restrict to your domain
+    allow_origins=["http://localhost:3000", "https://bidline-two.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
